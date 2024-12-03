@@ -13,7 +13,7 @@ Dataset for indoor fire detection
 ## Collection process:
  The Home-fire dataset was collected from publicly available images and videos on the Pexels, Pixabay, YouTube, and BiliBili platforms, as well as footage shot by individuals. In total, about 400 videos were collected, which were edited and extracted into image formats and reasonably filtered. The creators (publishers) of the videos or images used and the corresponding link addresses are listed below.    
  
-<img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure1.png" width="500px"><img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure2.png" width="510px">
+<img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure1.png" width="300px"><img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure2.png" width="300px">
 
 
 
