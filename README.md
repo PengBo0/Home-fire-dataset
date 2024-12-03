@@ -15,11 +15,7 @@ Dataset for indoor fire detection
  
 <img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure1.png" width="400px"><img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure2.png" width="400px">    
 
-[Images and video addresses obtained from the Internet]()
-
-
-
-
+[Images and video addresses obtained from the Internet](https://github.com/PengBo0/Home-fire-dataset/blob/main/dataPath/dataPath.md)    
 **We sincerely thank the above-mentioned creators for their generous contributions.**
 
 **Additionally, we would like to extend our gratitude to the friends who participated in the recording process: JianJun Peng, TianXiang Feng, and Liu Chang.**
