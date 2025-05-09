@@ -56,7 +56,7 @@ Their materials and efforts were crucial in constructing this dataset and enabli
 
 ---
 
-📄 **License**
+##📄 License
 
 This dataset is released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.  
 You are free to use it for **non-commercial research and academic purposes** with proper citation.
