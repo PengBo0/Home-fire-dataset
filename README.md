@@ -1,25 +1,75 @@
 # Home-fire-dataset
-Dataset for indoor fire detection
 
-## Dataset Overview:
- The Home-fire dataset is constructed for early detection research of household fires. It contains 6,500 images and their corresponding annotation files (in YOLO model-compatible txt format). The dataset is divided into Train set (3,900 images), Validation set (1,300 images), and Test set (1,300 images) in a 6:2:2 ratio. The images and annotation files are stored in the train, val, and test directories, respectively.
+A dataset for indoor home fire detection tasks, designed for training object detection models such as YOLO.
 
+---
 
+## 📂 Dataset Overview
 
-## Sample Overview:
- The Home-fire dataset includes images of flames and smoke captured under various environmental and lighting conditions, as well as images from household cameras depicting the early stages of fire ignition. The dataset primarily focuses on small flames and smoke generated during the initial phase of a fire.
+The **Home-fire Dataset** is constructed to support early detection of household fires. It contains **6,500 images** with corresponding annotation files (in YOLO-compatible `.txt` format), covering various indoor fire scenarios.
 
+The dataset is split in a **6:2:2 ratio**:
+- `train.zip`: **3,900 images**
+- `val.zip`: **1,300 images**
+- `test.zip`: **1,300 images**
 
-## Collection process:
- The Home-fire dataset was collected from publicly available images and videos on the Pexels, Pixabay, YouTube, and BiliBili platforms, as well as footage shot by individuals. In total, about 400 videos were collected, which were edited and extracted into image formats and reasonably filtered. The creators (publishers) of the videos or images used and the corresponding link addresses are listed below.    
- 
-<img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure1.png" width="400px"><img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure2.png" width="400px">    
+Each `.zip` archive contains both images and label files, suitable for immediate use in training fire-related object detection models.
 
-[Images and video addresses obtained from the Internet](https://github.com/PengBo0/Home-fire-dataset/blob/main/dataPath/dataPath.md)    
+---
 
-**We sincerely thank the above-mentioned creators for their generous contributions.**
+## 🖼️ Sample Overview
 
-**Additionally, we would like to extend our gratitude to the friends who participated in the recording process: JianJun Peng, TianXiang Feng, and Liu Chang.**
+This dataset includes images of **flames** and **smoke** captured:
+- under various lighting and environmental conditions,
+- from household surveillance footage,
+- and during the **early ignition stages** of indoor fires.
 
-These materials were crucial in the construction of the Home-fire dataset, providing invaluable data support for our research and offering significant convenience and reference for the broader field of fire detection.
-Once again, our heartfelt thanks go to each of the creators and the friends who contributed to the recording process!
+Special attention is given to **small-scale flames and early smoke**, which are crucial for timely fire alarm systems.
+
+---
+
+## 📸 Data Collection Process
+
+The dataset was collected from:
+- Public platforms: **Pexels**, **Pixabay**, **YouTube**, **BiliBili**
+- Private contributions from volunteers
+
+A total of **~400 videos** were reviewed, edited, and converted into static images. All sources used are listed in the file below:
+
+🔗 [Images and video sources used in this dataset](https://github.com/PengBo0/Home-fire-dataset/blob/main/dataPath/dataPath.md)
+
+<div align="center">
+  <img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure1.png" width="400px">
+  <img src="https://github.com/PengBo0/Home-fire-dataset/blob/main/images/figure2.png" width="400px">
+</div>
+
+---
+
+## 🙏 Acknowledgements
+
+We sincerely thank all creators of the referenced videos and images for their generous contributions.
+
+We also extend our gratitude to the following individuals for participating in the video recording process:
+**JianJun Peng, TianXiang Feng, and Liu Chang**.
+
+Their materials and efforts were crucial in constructing this dataset and enabling research in early fire detection.
+
+---
+
+## 📌 Citation
+
+This dataset is part of the following publication.  
+**If you use the Home-fire Dataset in your work, please cite this paper:**
+
+```bibtex
+@ARTICLE{10985749,
+  author={Peng, Bo and Kim, Tae-Kook},
+  journal={IEEE Access}, 
+  title={YOLO-HF: Early Detection of Home Fires Using YOLO}, 
+  year={2025},
+  volume={13},
+  number={},
+  pages={79451-79466},
+  keywords={YOLO;Feature extraction;Accuracy;Proposals;Wildfires;Real-time systems;Adaptation models;Lighting;Indoor environment;Convolution;YOLO;object detection;fire dataset;home fire detection;smoke detection},
+  doi={10.1109/ACCESS.2025.3566907}
+}
